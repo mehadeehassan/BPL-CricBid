@@ -1,0 +1,122 @@
+[
+  {
+    "PlayerName": "Towhid Hridoy",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/67719.png",
+    "PlayerType": "All-Rounder",
+    "Origin": "Bangladesh",
+    "Rating": 7.8,
+    "BowlingStyle": "Right-arm off break",
+    "BattingStyle": "Right-hand",
+    "price": 350
+  },
+  {
+    "PlayerName": "Virat Kohli",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3993.png",
+    "PlayerType": "Batsman",
+    "Origin": "India",
+    "Rating": 9.7,
+    "BowlingStyle": "Right-arm medium",
+    "BattingStyle": "Right-hand",
+    "price": 200
+  },
+  {
+    "PlayerName": "Babar Azam",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/59429.png",
+    "PlayerType": "Batsman",
+    "Origin": "Pakistan",
+    "Rating": 9.3,
+    "BowlingStyle": "Right-arm off break",
+    "BattingStyle": "Right-hand",
+    "price": 105
+  },
+  {
+    "PlayerName": "Jasprit Bumrah",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/63755.png",
+    "PlayerType": "Bowler",
+    "Origin": "India",
+    "Rating": 9.8,
+    "BowlingStyle": "Right-arm fast",
+    "BattingStyle": "Right-hand",
+    "price": 600
+  },
+  {
+    "PlayerName": "Rashid Khan",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/65748.png",
+    "PlayerType": "All-Rounder",
+    "Origin": "Afghanistan",
+    "Rating": 9.4,
+    "BowlingStyle": "Right-arm leg break",
+    "BattingStyle": "Right-hand",
+    "price": 450
+  },
+  {
+    "PlayerName": "Kane Williamson",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/4330.png",
+    "PlayerType": "Batsman",
+    "Origin": "New Zealand",
+    "Rating": 9.1,
+    "BowlingStyle": "Right-arm off break",
+    "BattingStyle": "Right-hand",
+    "price": 600
+  },
+  {
+    "PlayerName": "Rishad Hossain",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/70203.png",
+    "PlayerType": "All-Rounder",
+    "Origin": "Bangladesh",
+    "Rating": 7.9,
+    "BowlingStyle": "Right-arm leg break",
+    "BattingStyle": "Right-hand",
+    "price": 550
+  },
+  {
+    "PlayerName": "Ben Stokes",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/10130.png",
+    "PlayerType": "All-Rounder",
+    "Origin": "England",
+    "Rating": 9.2,
+    "BowlingStyle": "Right-arm fast-medium",
+    "BattingStyle": "Left-hand",
+    "price": 500
+  },
+  {
+    "PlayerName": "Trent Boult",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/5612/4338.png",
+    "PlayerType": "Bowler",
+    "Origin": "New Zealand",
+    "Rating": 9.0,
+    "BowlingStyle": "Left-arm fast-medium",
+    "BattingStyle": "Left-hand",
+    "price": 800
+  },
+  {
+    "PlayerName": "Tamim Iqbal",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/3903.png",
+    "PlayerType": "Batsman",
+    "Origin": "Bangladesh",
+    "Rating": 8.8,
+    "BowlingStyle": "Right-arm off break",
+    "BattingStyle": "Left-hand",
+    "price": 600
+  },
+  {
+    "PlayerName": "David Warner",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/5380.png",
+    "PlayerType": "Batsman",
+    "Origin": "Australia",
+    "Rating": 9.1,
+    "BowlingStyle": "Right-arm off break",
+    "BattingStyle": "Left-hand",
+    "price": 700
+  },
+  {
+    "PlayerName": "Mitchell Starc",
+    "PlayerImg": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/generic/colored/10053.png",
+    "PlayerType": "Bowler",
+    "Origin": "Australia",
+    "Rating": 9.3,
+    "BowlingStyle": "Left-arm fast",
+    "BattingStyle": "Left-hand",
+    "price": 750
+  }
+]
