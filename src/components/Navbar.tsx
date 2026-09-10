@@ -1,5 +1,6 @@
 import { AiFillDollarCircle } from "react-icons/ai";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = ({coin}: {coin:number}) => {
   return (
@@ -10,7 +11,9 @@ const Navbar = ({coin}: {coin:number}) => {
 
           <div className="flex items-center gap-4 ">
             <ul className="flex items-center gap-8 text-lg leading-relaxed text-gray-700">
-              <li className="hover:text-amber-500 transition-colors cursor-pointer">Home</li>
+              <li className="hover:text-amber-500 transition-colors cursor-pointer">
+                <Link to="/">Home</Link>
+              </li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Fixture</li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Teams</li>
               <li className="hover:text-amber-500 transition-colors cursor-pointer">Schedules</li>
