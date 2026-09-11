@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Navbar = ({coin}: {coin:number}) => {
   return (
     <>
-      <nav className=" px-6 py-3 bg-white border-b border-gray-100">
+      <nav className=" px-6 py-3 bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
         <div className="flex items-center justify-between container mx-auto ">
           <img src={Logo} alt="BPL" className="h-20 w-auto cursor-pointer" />
 
