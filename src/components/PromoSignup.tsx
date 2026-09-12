@@ -7,7 +7,7 @@ export default function PromoSignup() {
         <div className="pointer-events-none absolute -right-10 top-1/2 h-48 w-48 -translate-y-1/2 rounded-full bg-orange-300 opacity-50 blur-3xl" />
 
         <div className="relative">
-          <h3 className="font-display text-2xl font-bold text-navy-950 sm:text-xl">
+          <h3 className="font-display text-xl font-bold text-navy-950 sm:text-2xl">
             Subscribe for Your Team News
           </h3>
           <p className="mt-4 text-sm text-gray-500">

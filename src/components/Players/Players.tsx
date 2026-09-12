@@ -23,9 +23,9 @@ const Players = ({ playersPromise, coin, setCoin, isSelectedPlayer, setIsSelecte
   };
 
   return (
-    <div className="container mx-auto mt-20">
-      <div className="flex justify-between items-center">
-        <h2 className="font-bold text-2xl">
+    <div className="container mx-auto mt-12 px-4 sm:mt-16 sm:px-6">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h2 className="font-bold text-xl sm:text-2xl">
           {buttonTpye === "available"
             ? "Available Players"
             : `Selected Player (${isSelectedPlayer.length}/${MAX_PLAYERS})`}
@@ -33,13 +33,13 @@ const Players = ({ playersPromise, coin, setCoin, isSelectedPlayer, setIsSelecte
         <div className="flex">
           <button
             onClick={() => hendleUpdateBtnType("available")}
-            className={`btn text-black rounded-r-none ${buttonTpye === "available" ? "bg-[#E7FE29]" : ""}`}
+            className={`btn text-black rounded-r-none text-sm sm:text-base ${buttonTpye === "available" ? "bg-[#E7FE29]" : ""}`}
           >
             Available
           </button>
           <button
             onClick={() => hendleUpdateBtnType("selected")}
-            className={`btn rounded-l-none ${buttonTpye === "selected" ? "bg-[#E7FE29]" : ""}`}
+            className={`btn rounded-l-none text-sm sm:text-base ${buttonTpye === "selected" ? "bg-[#E7FE29]" : ""}`}
           >
             Selected ({isSelectedPlayer.length})
           </button>

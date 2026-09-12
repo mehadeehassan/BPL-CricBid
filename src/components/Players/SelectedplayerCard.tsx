@@ -21,15 +21,15 @@ const SelectedplayerCard = ({ Player, isSelectedPlayer, setIsSelectedPlayer, coi
     setCoin(newCoinPrice);
   };
   return (
-    <div className="flex gap-4 justify-between mt-2 items-center border border-gray-300 rounded-xl py-6 px-6" key={index}>
-      <div className="flex gap-4 items-center">
-        <img src={Player.PlayerImg} alt={Player.PlayerName} className="w-15 h-15  bg-gray-100 rounded-xl" />
-        <div>
-          <h2 className="font-bold text-2xl">{Player.PlayerName}</h2>
-          <p>{Player.PlayerType}</p>
+    <div className="flex flex-wrap gap-4 justify-between mt-2 items-center border border-gray-300 rounded-xl py-4 px-4 sm:py-6 sm:px-6" key={index}>
+      <div className="flex min-w-0 gap-4 items-center">
+        <img src={Player.PlayerImg} alt={Player.PlayerName} className="h-14 w-14 shrink-0 bg-gray-100 rounded-xl object-cover sm:h-15 sm:w-15" />
+        <div className="min-w-0">
+          <h2 className="truncate font-bold text-lg sm:text-2xl">{Player.PlayerName}</h2>
+          <p className="truncate text-sm sm:text-base">{Player.PlayerType}</p>
         </div>
       </div>
-      <TbTrash className="text-3xl text-red-500 cursor-pointer" onClick={() => handleRemovePlayer(Player)} />
+      <TbTrash className="shrink-0 text-2xl text-red-500 cursor-pointer sm:text-3xl" onClick={() => handleRemovePlayer(Player)} />
     </div>
   );
 };

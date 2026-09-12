@@ -2,14 +2,14 @@ import BannerLogo from "../assets/banner-main.png";
 import BannerImg from "../assets/bg-shadow.png";
 export default function Banner() {
   return (
-    <section className="container mx-auto relative w-full overflow-hidden rounded-3xl bg-[#0a0a0d] px-6 py-20 sm:py-28">
+    <section className="container mx-auto relative w-full overflow-hidden rounded-3xl bg-[#0a0a0d] px-4 py-16 sm:px-6 sm:py-20 md:py-28">
       {/* background glow */}
       <img src={BannerImg} alt="" className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-80" />
 
       <div className="relative mx-auto flex max-w-4xl flex-col items-center text-center">
-        <img src={BannerLogo} alt="Cricket" className="mb-6 h-32 w-auto select-none sm:h-40" />
+        <img src={BannerLogo} alt="Cricket" className="mb-6 h-24 w-auto select-none sm:h-32 md:h-40" />
 
-        <h1 className="whitespace-nowrap text-2xl font-bold text-white sm:text-3xl md:text-5xl">Assemble Your Ultimate Dream 11 Cricket Team</h1>
+        <h1 className="text-2xl font-bold text-white sm:text-3xl md:text-5xl">Assemble Your Ultimate Dream 11 Cricket Team</h1>
 
         <p className="mt-4 max-w-lg text-sm text-gray-400 sm:text-base">Beyond Boundaries Beyond Limits</p>
 

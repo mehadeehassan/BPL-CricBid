@@ -13,7 +13,7 @@ const playersFetch = async (): Promise<Iplayers[]> => {
 
 function App() {
   const [playersPromise] = useState(() => playersFetch());
-  const [coin, setCoin] = useState(1500)
+  const [coin, setCoin] = useState(2000)
   const [isSelectedPlayer, setIsSelectedPlayer] = useState<Iplayers[]>([]);
 
 
