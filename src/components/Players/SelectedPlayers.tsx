@@ -1,4 +1,4 @@
-import { type Dispatch, type SetStateAction } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import type { Iplayers } from "../../Types/playerTypes";
 import SelectedplayerCard from "./SelectedplayerCard";
 
