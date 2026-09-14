@@ -1,4 +1,4 @@
-import { useState, type Dispatch, type SetStateAction } from "react";
+import type { Dispatch, SetStateAction } from "react";
 import { FaUser } from "react-icons/fa";
 import { GiBowlSpiral, GiCricketBat } from "react-icons/gi";
 import { IoFlagSharp } from "react-icons/io5";
@@ -12,6 +12,10 @@ interface IPlayersCardPops {
   isSelectedPlayer: Iplayers[];
   setIsSelectedPlayer: Dispatch<SetStateAction<Iplayers[]>>;
 }
+
+const isSelected = isSelectedPlayer.some(
+  (p) => p.PlayerName === player.PlayerName
+);
 
 const PlayersCard = ({ player, coin, setCoin, isSelectedPlayer, setIsSelectedPlayer }: IPlayersCardPops) => {
   const [isSelected, setIsSelected] = useState(false);
