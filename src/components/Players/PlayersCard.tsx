@@ -13,18 +13,20 @@ interface IPlayersCardPops {
   setIsSelectedPlayer: Dispatch<SetStateAction<Iplayers[]>>;
 }
 
-const isSelected = isSelectedPlayer.some(
-  (p) => p.PlayerName === player.PlayerName
-);
+
 
 const PlayersCard = ({ player, coin, setCoin, isSelectedPlayer, setIsSelectedPlayer }: IPlayersCardPops) => {
-  const [isSelected, setIsSelected] = useState(false);
+  // const [isSelected, setIsSelected] = useState(false);
+
+  const isSelected = isSelectedPlayer.some(
+  (p) => p.PlayerName === player.PlayerName
+);
 
   const handleSelectPlayers = () => {
     const newCoinPrice = coin - player.price;
     if (newCoinPrice >= 0) {
       setCoin(newCoinPrice);
-      setIsSelected(true);
+      // setIsSelected(true);
       //selected player
       setIsSelectedPlayer([...isSelectedPlayer, player]);
       toast.success(`You have successfully purchased ${player.PlayerName}`);
